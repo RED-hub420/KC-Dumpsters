@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request Service | KC Dumpsters Demo</title>
+  <meta name="description" content="KC Dumpsters demo">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="quote">
+
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas operations</span></div>
+    </a>
+    <nav class="main-nav"><a href="index.html" data-nav="home">Home</a><a href="roll-off.html" data-nav="rolloff">Roll-Off</a><a href="rural-trash.html" data-nav="rural">Rural Trash</a><a href="city-of-graham.html" data-nav="city">City Info</a><a href="service-area.html" data-nav="area">Service Area</a><a href="route-updates.html" data-nav="updates">Route Updates</a><a href="contact.html" data-nav="contact">Contact</a></nav>
+    <div class="header-actions">
+      <a class="btn btn-secondary" href="customer-portal.html">Customer portal</a>
+      <a class="btn btn-primary" href="request-quote.html">Request service</a>
+    </div>
+    <button class="btn btn-secondary mobile-toggle" data-mobile-toggle>Menu</button>
+  </div>
+</header>
+
+
+<section class="hero-simple">
+  <div class="container">
+    <span class="eyebrow">Request service</span>
+    <h1>One structured intake form instead of scattered messages</h1>
+    <p>This page is designed to capture enough information for the office to triage the request properly without forcing pricing onto the site before the business is ready.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+    <form class="card" data-demo-form="quote">
+      <h3>Service request form</h3>
+      <div class="form-grid">
+        <div class="field"><label>Name</label><input required></div>
+        <div class="field"><label>Phone</label><input required></div>
+        <div class="field"><label>Email</label><input type="email"></div>
+        <div class="field"><label>Service type</label><select><option>Roll-off rental</option><option>Rural trash service</option><option>Commercial front load</option><option>General info</option></select></div>
+        <div class="field"><label>Requested window</label><input type="date"></div>
+        <div class="field"><label>Preferred contact</label><select><option>Phone</option><option>Email</option><option>Text</option></select></div>
+        <div class="field full"><label>Service address</label><input></div>
+        <div class="field full"><label>Request details</label><textarea placeholder="Container size, route questions, placement notes, service start request, account setup notes, etc."></textarea></div>
+      </div>
+      <div style="margin-top:16px"><button class="btn btn-primary" type="submit">Submit request</button></div>
+    </form>
+    <div class="card">
+      <span class="kicker">Why this is better</span>
+      <h2 style="margin:10px 0 16px">Cleaner office intake from day one</h2>
+      <div class="check-grid">
+        <div class="check-item">Roll-off leads do not get mixed into rural service questions.</div>
+        <div class="check-item">The office gets job location before quoting travel-sensitive service.</div>
+        <div class="check-item">The same structured data can later feed CRM, dispatch, tickets, and billing setup.</div>
+        <div class="check-item">It keeps the demo realistic without pretending there is a finished backend already.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+          <div class="brand-mark"><span>KC Dumpsters</span><span style="color:rgba(255,255,255,.72)">Waste operations platform demo</span></div>
+        </div>
+        <p style="margin-top:14px">Built as a multi-page GitHub Pages demo with a customer-facing site and a serious internal command center.</p>
+      </div>
+      <div>
+        <h4>Service lines</h4>
+        <ul>
+          <li><a href="roll-off.html">Roll-off dumpsters</a></li>
+          <li><a href="rural-trash.html">Rural trash service</a></li>
+          <li><a href="city-of-graham.html">City of Graham information</a></li>
+          <li><a href="route-updates.html">Route updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Rural / City: 940-549-2510</li>
+          <li>Roll-off: 940-549-8459</li>
+          <li>kcdumpsters@gmail.com</li>
+          <li>1338 FM 1287, Graham, TX</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span data-year></span> KC Dumpsters demo build. Static front-end only.</div>
+  </div>
+</footer>
+<div class="toast" aria-live="polite"></div>
+<script src="assets/js/site.js"></script>
+
+</body>
+</html>

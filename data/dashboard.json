@@ -1,0 +1,134 @@
+{
+  "kpis": [
+    {
+      "label": "Open quotes",
+      "value": "18",
+      "delta": "+4 since yesterday",
+      "delta_class": "good"
+    },
+    {
+      "label": "Active roll-offs",
+      "value": "27",
+      "delta": "3 swap requests pending",
+      "delta_class": "warn"
+    },
+    {
+      "label": "Rural stops today",
+      "value": "146",
+      "delta": "92% route completion",
+      "delta_class": "good"
+    },
+    {
+      "label": "Invoices due this week",
+      "value": "$8,460",
+      "delta": "5 accounts need follow-up",
+      "delta_class": "warn"
+    }
+  ],
+  "routes": [
+    {
+      "name": "Rural Route A",
+      "driver": "Nathan C.",
+      "window": "6:00 AM - 2:30 PM",
+      "status": "On route",
+      "stops": "54",
+      "completed": "42",
+      "issues": "1"
+    },
+    {
+      "name": "Rural Route B",
+      "driver": "Mason H.",
+      "window": "6:30 AM - 3:00 PM",
+      "status": "Delayed",
+      "stops": "48",
+      "completed": "29",
+      "issues": "2"
+    },
+    {
+      "name": "City Commercial",
+      "driver": "Jared P.",
+      "window": "5:30 AM - 1:00 PM",
+      "status": "On route",
+      "stops": "31",
+      "completed": "24",
+      "issues": "0"
+    }
+  ],
+  "alerts": [
+    {
+      "icon": "\u26a0\ufe0f",
+      "title": "Route B running 38 minutes behind",
+      "body": "Equipment change slowed the start of the rural afternoon lane. Customers in the Possum Kingdom corridor should receive an email update if delay extends."
+    },
+    {
+      "icon": "\ud83e\uddfe",
+      "title": "Five invoices cross 30-day aging on Friday",
+      "body": "Collections follow-up is due for three commercial front-load customers and two roll-off accounts before weekly close."
+    },
+    {
+      "icon": "\ud83d\udee0\ufe0f",
+      "title": "Container RO-40-03 needs wheel inspection",
+      "body": "Asset flagged by driver after pull from the south yard. Hold for maintenance before next commercial placement."
+    }
+  ],
+  "open_quotes": [
+    {
+      "quote_id": "Q-1064",
+      "customer": "Briscoe Roofing",
+      "service": "40-yard roll-off",
+      "location": "Graham, TX",
+      "status": "Pending approval"
+    },
+    {
+      "quote_id": "Q-1063",
+      "customer": "M. Hart",
+      "service": "Rural trash service",
+      "location": "South Bend, TX",
+      "status": "Needs follow-up"
+    },
+    {
+      "quote_id": "Q-1062",
+      "customer": "Young County Feed",
+      "service": "6-yard front load",
+      "location": "Graham, TX",
+      "status": "Draft"
+    },
+    {
+      "quote_id": "Q-1061",
+      "customer": "Taylor Remodel",
+      "service": "30-yard roll-off",
+      "location": "Loving, TX",
+      "status": "Pending deposit"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "T-204",
+      "issue": "Missed pickup",
+      "address": "Hwy 16 N route",
+      "priority": "Urgent",
+      "assigned": "Ops desk"
+    },
+    {
+      "ticket_id": "T-203",
+      "issue": "Cart lid damage",
+      "address": "Creekview Dr",
+      "priority": "Open",
+      "assigned": "Shop"
+    },
+    {
+      "ticket_id": "T-202",
+      "issue": "Extra pickup request",
+      "address": "Industrial Blvd",
+      "priority": "Attention",
+      "assigned": "Dispatch"
+    },
+    {
+      "ticket_id": "T-201",
+      "issue": "Overflow photo review",
+      "address": "FM 209",
+      "priority": "Open",
+      "assigned": "Supervisor"
+    }
+  ]
+}

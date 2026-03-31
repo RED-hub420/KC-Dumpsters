@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settings | KC Command Center</title>
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="admin-body" data-page="settings">
+<div class="admin-shell">
+  
+<aside class="admin-sidebar">
+  <div class="admin-brand">
+    <img src="../assets/img/logo.png" alt="KC Dumpsters logo">
+    <div><strong>KC Command Center</strong><small>Operations demo environment</small></div>
+  </div>
+  <div class="badge-row">
+    <span class="badge">Route ops</span>
+    <span class="badge">Quotes</span>
+    <span class="badge">Billing</span>
+  </div>
+  <nav class="admin-nav"><a href="dashboard.html" data-admin-nav="dashboard">Dashboard<span class="count"></span></a><a href="customers.html" data-admin-nav="customers">Customers<span class="count">184</span></a><a href="quotes.html" data-admin-nav="quotes">Quotes<span class="count">18</span></a><a href="dispatch.html" data-admin-nav="dispatch">Dispatch<span class="count">3</span></a><a href="inventory.html" data-admin-nav="inventory">Inventory<span class="count">10</span></a><a href="invoices.html" data-admin-nav="invoices">Invoices<span class="count">5</span></a><a href="tickets.html" data-admin-nav="tickets">Tickets<span class="count">4</span></a><a href="staff.html" data-admin-nav="staff">Staff<span class="count">6</span></a><a href="reports.html" data-admin-nav="reports">Reports<span class="count"></span></a><a href="settings.html" data-admin-nav="settings">Settings<span class="count"></span></a></nav>
+  <div class="panel" style="margin-top:18px;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);box-shadow:none;color:#fff">
+    <h3 style="margin-bottom:10px">Demo scope</h3>
+    <p style="color:rgba(255,255,255,.74)">Static command center showing dispatch, customers, quotes, assets, billing, tickets, staff, and reporting.</p>
+  </div>
+</aside>
+
+  <main class="admin-main">
+    
+<div class="admin-topbar">
+  <div><div class="eyebrow">System settings</div><h1>Settings</h1></div>
+  <div class="filters"><span class="badge">Company</span><span class="badge">Notifications</span><span class="badge">Billing</span></div>
+</div>
+<div class="admin-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>Company details</h2></div>
+    <div class="form-grid">
+      <div class="field"><label>Company name</label><input value="KC Dumpsters, LLC"></div>
+      <div class="field"><label>Primary office number</label><input value="940-549-2510"></div>
+      <div class="field"><label>Roll-off line</label><input value="940-549-8459"></div>
+      <div class="field"><label>Primary email</label><input value="kcdumpsters@gmail.com"></div>
+      <div class="field full"><label>Office address</label><input value="1338 FM 1287, Graham, TX 76450"></div>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><h2>Notification rules</h2></div>
+    <div class="check-grid">
+      <div class="check-item">Send rural delay notices when routes shift more than 30 minutes.</div>
+      <div class="check-item">Require active email for route updates on rural accounts.</div>
+      <div class="check-item">Escalate missed pickups older than 24 hours.</div>
+      <div class="check-item">Flag accounts with overdue invoices before new roll-off placements.</div>
+    </div>
+  </section>
+</div>
+<section class="panel" style="margin-top:18px">
+  <div class="panel-head"><h2>Production stack placeholders</h2></div>
+  <div class="grid grid-3">
+    <div class="card soft"><h3>Payments</h3><p>Stripe or comparable processor for deposits, invoices, and saved payment methods.</p></div>
+    <div class="card soft"><h3>Auth + data</h3><p>Supabase or comparable stack for staff roles, customer accounts, and operational data.</p></div>
+    <div class="card soft"><h3>Dispatch integrations</h3><p>Future mapping, route optimization, SMS/email notifications, and driver mobile workflows.</p></div>
+  </div>
+</section>
+
+  </main>
+</div>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>

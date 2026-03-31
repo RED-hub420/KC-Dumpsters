@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dispatch | KC Command Center</title>
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="admin-body" data-page="dispatch">
+<div class="admin-shell">
+  
+<aside class="admin-sidebar">
+  <div class="admin-brand">
+    <img src="../assets/img/logo.png" alt="KC Dumpsters logo">
+    <div><strong>KC Command Center</strong><small>Operations demo environment</small></div>
+  </div>
+  <div class="badge-row">
+    <span class="badge">Route ops</span>
+    <span class="badge">Quotes</span>
+    <span class="badge">Billing</span>
+  </div>
+  <nav class="admin-nav"><a href="dashboard.html" data-admin-nav="dashboard">Dashboard<span class="count"></span></a><a href="customers.html" data-admin-nav="customers">Customers<span class="count">184</span></a><a href="quotes.html" data-admin-nav="quotes">Quotes<span class="count">18</span></a><a href="dispatch.html" data-admin-nav="dispatch">Dispatch<span class="count">3</span></a><a href="inventory.html" data-admin-nav="inventory">Inventory<span class="count">10</span></a><a href="invoices.html" data-admin-nav="invoices">Invoices<span class="count">5</span></a><a href="tickets.html" data-admin-nav="tickets">Tickets<span class="count">4</span></a><a href="staff.html" data-admin-nav="staff">Staff<span class="count">6</span></a><a href="reports.html" data-admin-nav="reports">Reports<span class="count"></span></a><a href="settings.html" data-admin-nav="settings">Settings<span class="count"></span></a></nav>
+  <div class="panel" style="margin-top:18px;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);box-shadow:none;color:#fff">
+    <h3 style="margin-bottom:10px">Demo scope</h3>
+    <p style="color:rgba(255,255,255,.74)">Static command center showing dispatch, customers, quotes, assets, billing, tickets, staff, and reporting.</p>
+  </div>
+</aside>
+
+  <main class="admin-main">
+    
+<div class="admin-topbar">
+  <div><div class="eyebrow">Dispatch and routing</div><h1>Dispatch</h1></div>
+  <div class="filters"><span class="badge">Route A</span><span class="badge">Route B</span><span class="badge">Roll-off</span><span class="badge">Commercial</span></div>
+</div>
+<div class="admin-grid" data-dispatch>
+  <section class="panel">
+    <div class="panel-head"><h2>Live route board</h2><span class="badge">Seeded demo data</span></div>
+    <div class="grid" data-dispatch-routes></div>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><h2>Ready assets</h2><a class="btn btn-secondary" href="inventory.html">Inventory</a></div>
+    <div data-ready-assets></div>
+  </section>
+</div>
+
+  </main>
+</div>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Updates | KC Dumpsters Demo</title>
+  <meta name="description" content="KC Dumpsters demo">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="updates">
+
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas operations</span></div>
+    </a>
+    <nav class="main-nav"><a href="index.html" data-nav="home">Home</a><a href="roll-off.html" data-nav="rolloff">Roll-Off</a><a href="rural-trash.html" data-nav="rural">Rural Trash</a><a href="city-of-graham.html" data-nav="city">City Info</a><a href="service-area.html" data-nav="area">Service Area</a><a href="route-updates.html" data-nav="updates">Route Updates</a><a href="contact.html" data-nav="contact">Contact</a></nav>
+    <div class="header-actions">
+      <a class="btn btn-secondary" href="customer-portal.html">Customer portal</a>
+      <a class="btn btn-primary" href="request-quote.html">Request service</a>
+    </div>
+    <button class="btn btn-secondary mobile-toggle" data-mobile-toggle>Menu</button>
+  </div>
+</header>
+
+
+<section class="hero-simple">
+  <div class="container">
+    <span class="eyebrow">Route updates</span>
+    <h1>Delay notices, holiday schedules, and service alerts</h1>
+    <p>This page is the customer-facing release valve for route changes. It exists to reduce inbound phone traffic when service timing shifts.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid-3">
+    <div class="notice">
+      <div style="font-size:1.1rem">⚠️</div>
+      <div><strong>Rural Route B delay</strong><p>Equipment swap this morning pushed the lane back. Expect service later than normal in the afternoon window.</p></div>
+    </div>
+    <div class="notice">
+      <div style="font-size:1.1rem">📅</div>
+      <div><strong>Holiday week notice</strong><p>If a holiday falls mid-week, route days may shift by one day. Updated schedule is posted here first.</p></div>
+    </div>
+    <div class="notice">
+      <div style="font-size:1.1rem">🛠️</div>
+      <div><strong>Cart repair requests</strong><p>City repair issues should still go through City Hall. Rural customers can report them directly here.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container two-col">
+    <div class="card">
+      <span class="kicker">Holiday schedule shell</span>
+      <h2 style="margin:10px 0 16px">Sample update board</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Week</th><th>Service area</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td>Apr 1-5</td><td>All routes</td><td><span class="status success">Normal operations</span></td></tr>
+            <tr><td>Apr 8-12</td><td>Route B</td><td><span class="status warning">Monitoring delays</span></td></tr>
+            <tr><td>Memorial Day week</td><td>Rural + commercial</td><td><span class="status info">Schedule shifts likely</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <form class="card" data-demo-form="route">
+      <h3>Get route updates by email</h3>
+      <div class="form-grid">
+        <div class="field"><label>Name</label><input></div>
+        <div class="field"><label>Email</label><input type="email"></div>
+        <div class="field"><label>Account type</label><select><option>Rural service</option><option>Commercial</option><option>Roll-off customer</option></select></div>
+        <div class="field"><label>Route / area</label><select><option>Route A</option><option>Route B</option><option>Commercial lane</option><option>Not sure</option></select></div>
+      </div>
+      <div style="margin-top:16px"><button class="btn btn-primary" type="submit">Save preferences</button></div>
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+          <div class="brand-mark"><span>KC Dumpsters</span><span style="color:rgba(255,255,255,.72)">Waste operations platform demo</span></div>
+        </div>
+        <p style="margin-top:14px">Built as a multi-page GitHub Pages demo with a customer-facing site and a serious internal command center.</p>
+      </div>
+      <div>
+        <h4>Service lines</h4>
+        <ul>
+          <li><a href="roll-off.html">Roll-off dumpsters</a></li>
+          <li><a href="rural-trash.html">Rural trash service</a></li>
+          <li><a href="city-of-graham.html">City of Graham information</a></li>
+          <li><a href="route-updates.html">Route updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Rural / City: 940-549-2510</li>
+          <li>Roll-off: 940-549-8459</li>
+          <li>kcdumpsters@gmail.com</li>
+          <li>1338 FM 1287, Graham, TX</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span data-year></span> KC Dumpsters demo build. Static front-end only.</div>
+  </div>
+</footer>
+<div class="toast" aria-live="polite"></div>
+<script src="assets/js/site.js"></script>
+
+</body>
+</html>

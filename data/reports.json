@@ -1,0 +1,63 @@
+{
+  "metrics": [
+    {
+      "label": "Quote-to-booking conversion",
+      "value": "42%",
+      "percent": 42
+    },
+    {
+      "label": "Route completion before 3 PM",
+      "value": "88%",
+      "percent": 88
+    },
+    {
+      "label": "Average ticket closure under 24h",
+      "value": "76%",
+      "percent": 76
+    },
+    {
+      "label": "Roll-off utilization",
+      "value": "71%",
+      "percent": 71
+    },
+    {
+      "label": "Autopay enrollment on rural accounts",
+      "value": "64%",
+      "percent": 64
+    }
+  ],
+  "periods": [
+    {
+      "period": "Jan 2026",
+      "quotes": "49",
+      "conversions": "18",
+      "missed_pickups": "6",
+      "ar_30": "$4,120",
+      "utilization": "68%"
+    },
+    {
+      "period": "Feb 2026",
+      "quotes": "53",
+      "conversions": "22",
+      "missed_pickups": "5",
+      "ar_30": "$3,780",
+      "utilization": "72%"
+    },
+    {
+      "period": "Mar 2026",
+      "quotes": "58",
+      "conversions": "24",
+      "missed_pickups": "7",
+      "ar_30": "$4,460",
+      "utilization": "71%"
+    },
+    {
+      "period": "Apr 2026 (MTD)",
+      "quotes": "18",
+      "conversions": "7",
+      "missed_pickups": "2",
+      "ar_30": "$2,940",
+      "utilization": "69%"
+    }
+  ]
+}

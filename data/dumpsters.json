@@ -1,0 +1,82 @@
+[
+  {
+    "asset": "RO-30-08",
+    "type": "Roll-off",
+    "size": "30-yard",
+    "yard": "West Oak Storage",
+    "condition": "Ready",
+    "status": "Delivered"
+  },
+  {
+    "asset": "RO-40-03",
+    "type": "Roll-off",
+    "size": "40-yard",
+    "yard": "South yard hold",
+    "condition": "Attention",
+    "status": "Maintenance hold"
+  },
+  {
+    "asset": "RO-30-11",
+    "type": "Roll-off",
+    "size": "30-yard",
+    "yard": "Main yard",
+    "condition": "Ready",
+    "status": "Ready"
+  },
+  {
+    "asset": "RO-40-05",
+    "type": "Roll-off",
+    "size": "40-yard",
+    "yard": "Main yard",
+    "condition": "Ready",
+    "status": "Ready"
+  },
+  {
+    "asset": "FL-06-04",
+    "type": "Front load",
+    "size": "6-yard",
+    "yard": "Young County Feed",
+    "condition": "Ready",
+    "status": "Active"
+  },
+  {
+    "asset": "FL-08-02",
+    "type": "Front load",
+    "size": "8-yard",
+    "yard": "Graham market lane",
+    "condition": "Ready",
+    "status": "Ready"
+  },
+  {
+    "asset": "CART-95-184",
+    "type": "Polycart",
+    "size": "95-gallon",
+    "yard": "Route A",
+    "condition": "Ready",
+    "status": "Active"
+  },
+  {
+    "asset": "CART-95-205",
+    "type": "Polycart",
+    "size": "95-gallon",
+    "yard": "Shop",
+    "condition": "Attention",
+    "status": "Repair"
+  },
+  {
+    "asset": "RO-20-01",
+    "type": "Roll-off",
+    "size": "20-yard",
+    "yard": "Main yard",
+    "condition": "Ready",
+    "status": "Ready"
+  },
+  {
+    "asset": "RO-30-14",
+    "type": "Roll-off",
+    "size": "30-yard",
+    "yard": "Loving Hwy build site",
+    "condition": "Ready",
+    "status": "Delivered"
+  }
+]

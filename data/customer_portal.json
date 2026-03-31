@@ -1,0 +1,58 @@
+{
+  "account": {
+    "name": "West Oak Storage",
+    "service_address": "498 Oak St, Graham, TX",
+    "plan": "30-yard roll-off rental",
+    "autopay": "Enabled",
+    "balance": "$315.00"
+  },
+  "upcoming": [
+    {
+      "title": "Scheduled pull request",
+      "when": "Friday \u00b7 Apr 5 \u00b7 after 1:00 PM",
+      "status": "Scheduled",
+      "status_class": "info",
+      "note": "Roll-off RO-30-08 is queued for pickup. Site contact will receive a call 30 minutes before arrival."
+    },
+    {
+      "title": "Rental extension review",
+      "when": "Monday \u00b7 Apr 8",
+      "status": "Pending",
+      "status_class": "warning",
+      "note": "Office review required if container remains on site beyond weekend without swap request."
+    }
+  ],
+  "invoices": [
+    {
+      "invoice": "INV-3309",
+      "due": "Apr 7",
+      "amount": "$315.00",
+      "status": "Open",
+      "status_class": "warning"
+    },
+    {
+      "invoice": "INV-3281",
+      "due": "Mar 5",
+      "amount": "$0.00",
+      "status": "Paid",
+      "status_class": "success"
+    }
+  ],
+  "notices": [
+    {
+      "icon": "\ud83e\udded",
+      "title": "Route timing may shift around holidays",
+      "body": "If a holiday falls mid-week, updated pull and service windows will be posted on the route updates page and sent by email."
+    },
+    {
+      "icon": "\ud83d\udeab",
+      "title": "Do not load above the top rail",
+      "body": "Overfilled containers may need to be offloaded before pickup for transport safety."
+    },
+    {
+      "icon": "\ud83d\udccd",
+      "title": "Placement requests help avoid delays",
+      "body": "Use the service note area to leave gate, pad, and placement instructions before a drop or swap."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "route": "Rural Route A",
+    "driver": "Nathan C.",
+    "truck": "Truck 72",
+    "status": "On route",
+    "notes": "Morning lane. Cart repairs staged for stop 22.",
+    "deliveries": "4",
+    "pulls": "1",
+    "on_route": "42"
+  },
+  {
+    "route": "Rural Route B",
+    "driver": "Mason H.",
+    "truck": "Truck 18",
+    "status": "Delayed",
+    "notes": "Fuel stop plus equipment swap. Delay message prepared.",
+    "deliveries": "2",
+    "pulls": "0",
+    "on_route": "29"
+  },
+  {
+    "route": "Roll-Off Board",
+    "driver": "Jared P.",
+    "truck": "Truck 31",
+    "status": "Active",
+    "notes": "Two 30-yard drops, one 40-yard pull, one swap request.",
+    "deliveries": "3",
+    "pulls": "2",
+    "on_route": "5"
+  },
+  {
+    "route": "City Commercial",
+    "driver": "Alex S.",
+    "truck": "Truck 14",
+    "status": "Complete",
+    "notes": "Commercial lane cleared before 1 PM.",
+    "deliveries": "0",
+    "pulls": "0",
+    "on_route": "31"
+  }
+]

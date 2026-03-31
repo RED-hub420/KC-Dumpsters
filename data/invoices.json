@@ -1,0 +1,50 @@
+[
+  {
+    "invoice": "INV-3317",
+    "customer": "Clear Fork Plumbing",
+    "type": "Commercial roll-off",
+    "due": "Apr 4",
+    "amount": "$2,116",
+    "status": "Overdue"
+  },
+  {
+    "invoice": "INV-3315",
+    "customer": "Briscoe Roofing",
+    "type": "Tonnage / haul",
+    "due": "Apr 5",
+    "amount": "$1,240",
+    "status": "Due this week"
+  },
+  {
+    "invoice": "INV-3311",
+    "customer": "Cline Ranch",
+    "type": "Rural trash monthly",
+    "due": "Apr 1",
+    "amount": "$89",
+    "status": "Autopay scheduled"
+  },
+  {
+    "invoice": "INV-3309",
+    "customer": "West Oak Storage",
+    "type": "Rental extension",
+    "due": "Apr 7",
+    "amount": "$315",
+    "status": "Open"
+  },
+  {
+    "invoice": "INV-3302",
+    "customer": "Young County Feed",
+    "type": "Front load monthly",
+    "due": "Mar 29",
+    "amount": "$320",
+    "status": "Paid"
+  },
+  {
+    "invoice": "INV-3298",
+    "customer": "Briarstone Apartments",
+    "type": "Front load monthly",
+    "due": "Apr 2",
+    "amount": "$780",
+    "status": "Due this week"
+  }
+]

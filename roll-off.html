@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roll-Off | KC Dumpsters Demo</title>
+  <meta name="description" content="KC Dumpsters demo">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="rolloff">
+
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas operations</span></div>
+    </a>
+    <nav class="main-nav"><a href="index.html" data-nav="home">Home</a><a href="roll-off.html" data-nav="rolloff">Roll-Off</a><a href="rural-trash.html" data-nav="rural">Rural Trash</a><a href="city-of-graham.html" data-nav="city">City Info</a><a href="service-area.html" data-nav="area">Service Area</a><a href="route-updates.html" data-nav="updates">Route Updates</a><a href="contact.html" data-nav="contact">Contact</a></nav>
+    <div class="header-actions">
+      <a class="btn btn-secondary" href="customer-portal.html">Customer portal</a>
+      <a class="btn btn-primary" href="request-quote.html">Request service</a>
+    </div>
+    <button class="btn btn-secondary mobile-toggle" data-mobile-toggle>Menu</button>
+  </div>
+</header>
+
+
+<section class="hero-simple">
+  <div class="container">
+    <span class="eyebrow">Roll-off service</span>
+    <h1>Commercial and project dumpster rentals</h1>
+    <p>This page is built around a quote-first workflow. The customer gives job location, timing, material type, and placement notes; the office turns that into a real haul and tonnage quote.</p>
+    <div class="quick-links">
+      <a href="request-quote.html">Request a roll-off quote</a>
+      <a href="contact.html">Talk to the office</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+    <div class="card">
+      <span class="kicker">Rental workflow</span>
+      <h2 style="margin:10px 0 16px">How the flow is framed in this demo</h2>
+      <div class="check-grid">
+        <div class="check-item">Customer submits service type, location, requested timing, and load details.</div>
+        <div class="check-item">Office reviews placement notes, confirms service area, and prepares the quote.</div>
+        <div class="check-item">Initial payment covers delivery, first haul, and tax before container placement.</div>
+        <div class="check-item">Final tonnage and any extension time can be settled after pickup and weigh-out.</div>
+      </div>
+      <hr class="sep">
+      <h3 style="margin-bottom:12px">Placement notes</h3>
+      <ul class="list-tight">
+        <li>It helps if someone is on site at delivery, but the form supports detailed placement instructions if not.</li>
+        <li>Placement surfaces should be selected carefully before delivery because containers are heavy.</li>
+        <li>Overfilled containers or blocked access can delay pickup and create a service follow-up event.</li>
+      </ul>
+    </div>
+    <div class="photo-frame">
+      <img src="assets/img/truck-rolloff.png" alt="KC Dumpsters roll-off truck">
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="kicker">Containers and controls</span><h2>Quote-based capacity planning</h2></div>
+      <p>Pricing is left out on purpose for this demo. The site uses a structured request path instead of hardcoded rates, which is smarter until the real pricing model is finalized.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>20-yard / 30-yard</h3>
+        <p>Typical build, cleanup, or remodel workflows. Good fit when the office wants flexible delivery and pull timing without forcing fixed pricing on the site.</p>
+      </div>
+      <div class="card">
+        <h3>40-yard commercial</h3>
+        <p>For larger commercial or construction accounts where frequency, tonnage, and haul scheduling matter more than a single simple rental fee.</p>
+      </div>
+      <div class="card">
+        <h3>Swap / pull / hold notes</h3>
+        <p>The form flow supports drop, pull, swap, extension, and relocation so the admin dispatch board can use one intake path instead of email chaos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+    <div class="banner">
+      <span class="kicker">Load restrictions</span>
+      <h2 style="margin:10px 0">Common rules shown clearly</h2>
+      <div class="check-grid">
+        <div class="check-item">Do not load above the top rail.</div>
+        <div class="check-item">Hazardous material, liquids, and prohibited waste stay out of the container.</div>
+        <div class="check-item">Customers should flag heavy material loads so tonnage expectations are clear up front.</div>
+      </div>
+    </div>
+    <form class="card" data-demo-form="quote">
+      <h3>Quick roll-off request</h3>
+      <div class="form-grid">
+        <div class="field"><label>Name</label><input required></div>
+        <div class="field"><label>Phone</label><input required></div>
+        <div class="field"><label>Container type</label><select><option>30-yard</option><option>40-yard</option><option>Need recommendation</option></select></div>
+        <div class="field"><label>Requested date</label><input type="date"></div>
+        <div class="field full"><label>Job address</label><input></div>
+        <div class="field full"><label>Material / notes</label><textarea placeholder="Roof tear-off, remodeling debris, placement instructions, gate code, etc."></textarea></div>
+      </div>
+      <div style="margin-top:16px"><button class="btn btn-primary" type="submit">Save request</button></div>
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+          <div class="brand-mark"><span>KC Dumpsters</span><span style="color:rgba(255,255,255,.72)">Waste operations platform demo</span></div>
+        </div>
+        <p style="margin-top:14px">Built as a multi-page GitHub Pages demo with a customer-facing site and a serious internal command center.</p>
+      </div>
+      <div>
+        <h4>Service lines</h4>
+        <ul>
+          <li><a href="roll-off.html">Roll-off dumpsters</a></li>
+          <li><a href="rural-trash.html">Rural trash service</a></li>
+          <li><a href="city-of-graham.html">City of Graham information</a></li>
+          <li><a href="route-updates.html">Route updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Rural / City: 940-549-2510</li>
+          <li>Roll-off: 940-549-8459</li>
+          <li>kcdumpsters@gmail.com</li>
+          <li>1338 FM 1287, Graham, TX</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span data-year></span> KC Dumpsters demo build. Static front-end only.</div>
+  </div>
+</footer>
+<div class="toast" aria-live="polite"></div>
+<script src="assets/js/site.js"></script>
+
+</body>
+</html>

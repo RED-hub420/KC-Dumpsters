@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Jenny Anderle",
+    "email": "office@kcdumpsterstx.com",
+    "role": "Administrator",
+    "permissions": "Billing, dispatch, staff, settings",
+    "assignment": "Office",
+    "status": "Active"
+  },
+  {
+    "name": "Adam Anderle",
+    "email": "operations@kcdumpsterstx.com",
+    "role": "Operations manager",
+    "permissions": "Dispatch, inventory, tickets, reports",
+    "assignment": "All routes",
+    "status": "Active"
+  },
+  {
+    "name": "Nathan C.",
+    "email": "nathan@kcdumpsterstx.com",
+    "role": "Driver",
+    "permissions": "Routes, tickets, customer notes",
+    "assignment": "Rural Route A",
+    "status": "Active"
+  },
+  {
+    "name": "Mason H.",
+    "email": "mason@kcdumpsterstx.com",
+    "role": "Driver",
+    "permissions": "Routes, tickets, asset updates",
+    "assignment": "Rural Route B",
+    "status": "Active"
+  },
+  {
+    "name": "Alex S.",
+    "email": "alex@kcdumpsterstx.com",
+    "role": "Driver",
+    "permissions": "City commercial lane",
+    "assignment": "City Commercial",
+    "status": "Active"
+  },
+  {
+    "name": "Kayla D.",
+    "email": "kayla@kcdumpsterstx.com",
+    "role": "Billing",
+    "permissions": "Invoices, customers, payments",
+    "assignment": "Office",
+    "status": "Pending invite"
+  }
+]

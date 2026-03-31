@@ -1,0 +1,50 @@
+[
+  {
+    "quote_id": "Q-1064",
+    "customer": "Briscoe Roofing",
+    "service": "40-yard roll-off",
+    "requested": "Apr 3-5",
+    "location": "Graham north yard",
+    "status": "Pending approval"
+  },
+  {
+    "quote_id": "Q-1063",
+    "customer": "M. Hart",
+    "service": "Rural trash service",
+    "requested": "Next route cycle",
+    "location": "South Bend, TX",
+    "status": "Needs follow-up"
+  },
+  {
+    "quote_id": "Q-1062",
+    "customer": "Young County Feed",
+    "service": "6-yard front load",
+    "requested": "This week",
+    "location": "Hwy 67, Graham",
+    "status": "Draft"
+  },
+  {
+    "quote_id": "Q-1061",
+    "customer": "Taylor Remodel",
+    "service": "30-yard roll-off",
+    "requested": "Apr 1",
+    "location": "Loving, TX",
+    "status": "Pending deposit"
+  },
+  {
+    "quote_id": "Q-1060",
+    "customer": "Briarstone Apartments",
+    "service": "8-yard front load",
+    "requested": "Apr 8",
+    "location": "Graham east side",
+    "status": "Ready to send"
+  },
+  {
+    "quote_id": "Q-1059",
+    "customer": "J. Medina",
+    "service": "Rural trash service",
+    "requested": "Apr 10",
+    "location": "FM 209",
+    "status": "New"
+  }
+]

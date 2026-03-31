@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KC Command Center Login</title>
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+<div class="login-wrap">
+  <section class="login-side">
+    <div>
+      <span class="eyebrow">Admin side</span>
+      <h1 style="font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:18px 0 12px">KC Command Center</h1>
+      <p style="max-width:540px;color:rgba(255,255,255,.76)">Serious internal operations demo for dispatch, customers, assets, tickets, billing, route visibility, and staff access control.</p>
+    </div>
+    <div class="badge-row">
+      <span class="badge">Quotes</span>
+      <span class="badge">Dispatch</span>
+      <span class="badge">Invoices</span>
+      <span class="badge">Tickets</span>
+    </div>
+  </section>
+  <section class="login-panel">
+    <div class="demo-box">
+      <strong>Demo access</strong>
+      <p class="muted" style="margin:8px 0 0">This is a static GitHub Pages build. The login is only here to make the demo feel like a real internal system.</p>
+    </div>
+    <h2 style="margin:0 0 12px">Sign in</h2>
+    <div class="form-grid">
+      <div class="field"><label>Email</label><input value="ops@kcdumpsterstx.com"></div>
+      <div class="field"><label>Password</label><input type="password" value="DemoAccess2026"></div>
+    </div>
+    <div style="margin-top:18px;display:grid;gap:12px">
+      <a class="btn btn-primary" href="dashboard.html" data-demo-login>Enter command center</a>
+      <a class="btn btn-secondary" href="../index.html">Back to customer site</a>
+    </div>
+    <p class="help" style="margin-top:14px">Future production version would use real staff auth, role-based access, and protected routes.</p>
+  </section>
+</div>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
