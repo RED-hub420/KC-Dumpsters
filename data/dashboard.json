@@ -1,134 +1,155 @@
 {
   "kpis": [
     {
-      "label": "Open quotes",
-      "value": "18",
-      "delta": "+4 since yesterday",
-      "delta_class": "good"
-    },
-    {
-      "label": "Active roll-offs",
-      "value": "27",
-      "delta": "3 swap requests pending",
+      "label": "Scheduled stops today",
+      "value": "64",
+      "delta": "4 route adjustments pending",
       "delta_class": "warn"
     },
     {
-      "label": "Rural stops today",
-      "value": "146",
-      "delta": "92% route completion",
-      "delta_class": "good"
+      "label": "Open quote requests",
+      "value": "12",
+      "delta": "3 older than 24 hours",
+      "delta_class": "warn"
     },
     {
-      "label": "Invoices due this week",
-      "value": "$8,460",
-      "delta": "5 accounts need follow-up",
+      "label": "Invoices due / overdue",
+      "value": "9",
+      "delta": "$4,860 outstanding",
       "delta_class": "warn"
+    },
+    {
+      "label": "Open service tickets",
+      "value": "7",
+      "delta": "2 require same-day follow-up",
+      "delta_class": "good"
     }
   ],
   "routes": [
     {
-      "name": "Rural Route A",
-      "driver": "Nathan C.",
-      "window": "6:00 AM - 2:30 PM",
+      "name": "Rural North",
+      "driver": "Nathan Alford",
+      "window": "6:30 AM - 2:30 PM",
       "status": "On route",
-      "stops": "54",
-      "completed": "42",
+      "stops": "21",
+      "completed": "9",
       "issues": "1"
     },
     {
-      "name": "Rural Route B",
-      "driver": "Mason H.",
-      "window": "6:30 AM - 3:00 PM",
-      "status": "Delayed",
-      "stops": "48",
-      "completed": "29",
+      "name": "Rural South",
+      "driver": "Dylan Garcia",
+      "window": "7:00 AM - 3:00 PM",
+      "status": "Delayed 30 min",
+      "stops": "18",
+      "completed": "6",
       "issues": "2"
     },
     {
-      "name": "City Commercial",
-      "driver": "Jared P.",
-      "window": "5:30 AM - 1:00 PM",
-      "status": "On route",
-      "stops": "31",
-      "completed": "24",
+      "name": "Roll-off Board",
+      "driver": "Mike LaBalesta",
+      "window": "Dispatch board",
+      "status": "3 deliveries / 2 pulls",
+      "stops": "5",
+      "completed": "2",
+      "issues": "0"
+    },
+    {
+      "name": "City Overflow",
+      "driver": "Office hold",
+      "window": "Standby",
+      "status": "Available",
+      "stops": "0",
+      "completed": "0",
       "issues": "0"
     }
   ],
   "alerts": [
     {
       "icon": "\u26a0\ufe0f",
-      "title": "Route B running 38 minutes behind",
-      "body": "Equipment change slowed the start of the rural afternoon lane. Customers in the Possum Kingdom corridor should receive an email update if delay extends."
+      "title": "FM 1287 afternoon delay watch",
+      "body": "Two rural pickups remain unscheduled after a truck inspection delay. Customers on the affected segment should receive a text update by noon."
     },
     {
-      "icon": "\ud83e\uddfe",
-      "title": "Five invoices cross 30-day aging on Friday",
-      "body": "Collections follow-up is due for three commercial front-load customers and two roll-off accounts before weekly close."
+      "icon": "\ud83d\udcde",
+      "title": "Collections follow-up due today",
+      "body": "Three accounts moved past 14 days. Office needs call notes logged before close of business."
     },
     {
       "icon": "\ud83d\udee0\ufe0f",
-      "title": "Container RO-40-03 needs wheel inspection",
-      "body": "Asset flagged by driver after pull from the south yard. Hold for maintenance before next commercial placement."
+      "title": "Asset C-12 in washout / repair queue",
+      "body": "Cart lid replacement still open. Do not assign the unit until maintenance clears it."
+    },
+    {
+      "icon": "\ud83d\uddc2\ufe0f",
+      "title": "Quote backlog needs same-day review",
+      "body": "Commercial 8-yard request and two roll-off swaps are still sitting in 'Pending review'."
     }
   ],
   "open_quotes": [
     {
-      "quote_id": "Q-1064",
-      "customer": "Briscoe Roofing",
-      "service": "40-yard roll-off",
-      "location": "Graham, TX",
-      "status": "Pending approval"
+      "quote_id": "Q-24118",
+      "customer": "Bar D Construction",
+      "service": "30 yard roll-off",
+      "location": "Graham west yard",
+      "status": "Pending site review"
     },
     {
-      "quote_id": "Q-1063",
-      "customer": "M. Hart",
-      "service": "Rural trash service",
-      "location": "South Bend, TX",
-      "status": "Needs follow-up"
+      "quote_id": "Q-24117",
+      "customer": "Mason Feed & Supply",
+      "service": "8 yard front-load",
+      "location": "Downtown Graham",
+      "status": "Quoted"
     },
     {
-      "quote_id": "Q-1062",
-      "customer": "Young County Feed",
-      "service": "6-yard front load",
-      "location": "Graham, TX",
-      "status": "Draft"
+      "quote_id": "Q-24116",
+      "customer": "Holland Residence",
+      "service": "Rural trash start",
+      "location": "Loving Hwy",
+      "status": "New"
     },
     {
-      "quote_id": "Q-1061",
-      "customer": "Taylor Remodel",
-      "service": "30-yard roll-off",
-      "location": "Loving, TX",
-      "status": "Pending deposit"
+      "quote_id": "Q-24115",
+      "customer": "Cedar Creek Roofing",
+      "service": "20 yard roll-off",
+      "location": "South Bend",
+      "status": "Waiting on customer"
+    },
+    {
+      "quote_id": "Q-24114",
+      "customer": "Patterson Ranch",
+      "service": "Polycart replacement",
+      "location": "Bryson Rd",
+      "status": "Pending review"
     }
   ],
   "tickets": [
     {
-      "ticket_id": "T-204",
+      "ticket_id": "T-9031",
       "issue": "Missed pickup",
-      "address": "Hwy 16 N route",
+      "address": "FM 209 lot 14",
       "priority": "Urgent",
-      "assigned": "Ops desk"
+      "assigned": "D. Garcia"
     },
     {
-      "ticket_id": "T-203",
-      "issue": "Cart lid damage",
-      "address": "Creekview Dr",
+      "ticket_id": "T-9030",
+      "issue": "Damaged lid",
+      "address": "Oak Grove Rd",
       "priority": "Open",
       "assigned": "Shop"
     },
     {
-      "ticket_id": "T-202",
-      "issue": "Extra pickup request",
-      "address": "Industrial Blvd",
-      "priority": "Attention",
+      "ticket_id": "T-9029",
+      "issue": "Container move request",
+      "address": "4th St jobsite",
+      "priority": "Pending",
       "assigned": "Dispatch"
     },
     {
-      "ticket_id": "T-201",
-      "issue": "Overflow photo review",
-      "address": "FM 209",
-      "priority": "Open",
-      "assigned": "Supervisor"
+      "ticket_id": "T-9028",
+      "issue": "Invoice question",
+      "address": "Phone follow-up",
+      "priority": "Due today",
+      "assigned": "Office"
     }
   ]
 }

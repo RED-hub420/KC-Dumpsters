@@ -1,42 +1,42 @@
 [
   {
-    "route": "Rural Route A",
-    "driver": "Nathan C.",
+    "route": "Rural North",
+    "driver": "Nathan Alford",
     "truck": "Truck 72",
     "status": "On route",
-    "notes": "Morning lane. Cart repairs staged for stop 22.",
-    "deliveries": "4",
-    "pulls": "1",
-    "on_route": "42"
-  },
-  {
-    "route": "Rural Route B",
-    "driver": "Mason H.",
-    "truck": "Truck 18",
-    "status": "Delayed",
-    "notes": "Fuel stop plus equipment swap. Delay message prepared.",
+    "notes": "Leave text notice for FM 209 segment if arrival shifts past 1 PM.",
     "deliveries": "2",
     "pulls": "0",
-    "on_route": "29"
+    "on_route": "9"
   },
   {
-    "route": "Roll-Off Board",
-    "driver": "Jared P.",
-    "truck": "Truck 31",
-    "status": "Active",
-    "notes": "Two 30-yard drops, one 40-yard pull, one swap request.",
-    "deliveries": "3",
-    "pulls": "2",
-    "on_route": "5"
+    "route": "Rural South",
+    "driver": "Dylan Garcia",
+    "truck": "Truck 64",
+    "status": "Delayed 30 min",
+    "notes": "Fuel stop and tire check completed at 8:10 AM.",
+    "deliveries": "1",
+    "pulls": "1",
+    "on_route": "6"
   },
   {
-    "route": "City Commercial",
-    "driver": "Alex S.",
-    "truck": "Truck 14",
-    "status": "Complete",
-    "notes": "Commercial lane cleared before 1 PM.",
+    "route": "Roll-off East",
+    "driver": "Mike LaBalesta",
+    "truck": "Roll-off 03",
+    "status": "Dispatch active",
+    "notes": "Two deliveries, one swap, one final pickup pending confirmation.",
+    "deliveries": "2",
+    "pulls": "1",
+    "on_route": "2"
+  },
+  {
+    "route": "Commercial Relief",
+    "driver": "Office board",
+    "truck": "Unassigned",
+    "status": "Ready",
+    "notes": "Standby board for overflows and missed pickups.",
     "deliveries": "0",
     "pulls": "0",
-    "on_route": "31"
+    "on_route": "0"
   }
 ]

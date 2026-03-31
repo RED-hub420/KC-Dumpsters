@@ -1,50 +1,50 @@
 [
   {
-    "name": "Jenny Anderle",
-    "email": "office@kcdumpsterstx.com",
-    "role": "Administrator",
-    "permissions": "Billing, dispatch, staff, settings",
-    "assignment": "Office",
-    "status": "Active"
-  },
-  {
-    "name": "Adam Anderle",
-    "email": "operations@kcdumpsterstx.com",
-    "role": "Operations manager",
-    "permissions": "Dispatch, inventory, tickets, reports",
-    "assignment": "All routes",
-    "status": "Active"
-  },
-  {
-    "name": "Nathan C.",
+    "name": "Nathan Alford",
     "email": "nathan@kcdumpsterstx.com",
+    "role": "Route lead",
+    "permissions": "Dispatch, tickets",
+    "assignment": "Rural North",
+    "status": "On route"
+  },
+  {
+    "name": "Dylan Garcia",
+    "email": "dylan@kcdumpsterstx.com",
     "role": "Driver",
-    "permissions": "Routes, tickets, customer notes",
-    "assignment": "Rural Route A",
+    "permissions": "Dispatch, tickets",
+    "assignment": "Rural South",
+    "status": "On route"
+  },
+  {
+    "name": "Mike LaBalesta",
+    "email": "mike@kcdumpsterstx.com",
+    "role": "Operations manager",
+    "permissions": "All access",
+    "assignment": "Roll-off board",
     "status": "Active"
   },
   {
-    "name": "Mason H.",
-    "email": "mason@kcdumpsterstx.com",
-    "role": "Driver",
-    "permissions": "Routes, tickets, asset updates",
-    "assignment": "Rural Route B",
-    "status": "Active"
-  },
-  {
-    "name": "Alex S.",
-    "email": "alex@kcdumpsterstx.com",
-    "role": "Driver",
-    "permissions": "City commercial lane",
-    "assignment": "City Commercial",
-    "status": "Active"
-  },
-  {
-    "name": "Kayla D.",
-    "email": "kayla@kcdumpsterstx.com",
-    "role": "Billing",
-    "permissions": "Invoices, customers, payments",
+    "name": "Kelsey Carter",
+    "email": "office@kcdumpsterstx.com",
+    "role": "Office / billing",
+    "permissions": "Customers, invoices, quotes",
     "assignment": "Office",
-    "status": "Pending invite"
+    "status": "Active"
+  },
+  {
+    "name": "Shawn Reed",
+    "email": "shop@kcdumpsterstx.com",
+    "role": "Maintenance",
+    "permissions": "Inventory, tickets",
+    "assignment": "Shop",
+    "status": "Repair queue"
+  },
+  {
+    "name": "Amber Wells",
+    "email": "amber@kcdumpsterstx.com",
+    "role": "Customer service",
+    "permissions": "Customers, tickets",
+    "assignment": "Office",
+    "status": "Training"
   }
 ]

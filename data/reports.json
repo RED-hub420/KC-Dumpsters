@@ -1,63 +1,63 @@
 {
   "metrics": [
     {
-      "label": "Quote-to-booking conversion",
-      "value": "42%",
-      "percent": 42
+      "label": "Quote response under 24h",
+      "value": "83%",
+      "percent": 83
     },
     {
-      "label": "Route completion before 3 PM",
+      "label": "Route completion same day",
+      "value": "94%",
+      "percent": 94
+    },
+    {
+      "label": "A/R current under 30 days",
       "value": "88%",
       "percent": 88
     },
     {
-      "label": "Average ticket closure under 24h",
+      "label": "Roll-off asset utilization",
       "value": "76%",
       "percent": 76
     },
     {
-      "label": "Roll-off utilization",
+      "label": "Ticket closure within 48h",
       "value": "71%",
       "percent": 71
-    },
-    {
-      "label": "Autopay enrollment on rural accounts",
-      "value": "64%",
-      "percent": 64
     }
   ],
   "periods": [
     {
-      "period": "Jan 2026",
-      "quotes": "49",
-      "conversions": "18",
-      "missed_pickups": "6",
-      "ar_30": "$4,120",
-      "utilization": "68%"
+      "period": "Week ending Mar 09",
+      "quotes": "14",
+      "conversions": "8",
+      "missed_pickups": "3",
+      "ar_30": "$2,100",
+      "utilization": "74%"
     },
     {
-      "period": "Feb 2026",
-      "quotes": "53",
-      "conversions": "22",
-      "missed_pickups": "5",
-      "ar_30": "$3,780",
-      "utilization": "72%"
-    },
-    {
-      "period": "Mar 2026",
-      "quotes": "58",
-      "conversions": "24",
-      "missed_pickups": "7",
-      "ar_30": "$4,460",
-      "utilization": "71%"
-    },
-    {
-      "period": "Apr 2026 (MTD)",
+      "period": "Week ending Mar 16",
       "quotes": "18",
-      "conversions": "7",
+      "conversions": "11",
       "missed_pickups": "2",
-      "ar_30": "$2,940",
-      "utilization": "69%"
+      "ar_30": "$1,940",
+      "utilization": "79%"
+    },
+    {
+      "period": "Week ending Mar 23",
+      "quotes": "16",
+      "conversions": "10",
+      "missed_pickups": "4",
+      "ar_30": "$2,480",
+      "utilization": "73%"
+    },
+    {
+      "period": "Week ending Mar 30",
+      "quotes": "19",
+      "conversions": "12",
+      "missed_pickups": "2",
+      "ar_30": "$1,860",
+      "utilization": "76%"
     }
   ]
 }

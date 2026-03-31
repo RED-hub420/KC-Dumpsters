@@ -1,50 +1,82 @@
 [
   {
-    "quote_id": "Q-1064",
-    "customer": "Briscoe Roofing",
-    "service": "40-yard roll-off",
-    "requested": "Apr 3-5",
-    "location": "Graham north yard",
-    "status": "Pending approval"
+    "quote_id": "Q-24118",
+    "customer": "Bar D Construction",
+    "service": "30 yard roll-off",
+    "requested": "Tomorrow AM",
+    "location": "Graham west yard",
+    "status": "Pending site review"
   },
   {
-    "quote_id": "Q-1063",
-    "customer": "M. Hart",
-    "service": "Rural trash service",
-    "requested": "Next route cycle",
-    "location": "South Bend, TX",
-    "status": "Needs follow-up"
-  },
-  {
-    "quote_id": "Q-1062",
-    "customer": "Young County Feed",
-    "service": "6-yard front load",
+    "quote_id": "Q-24117",
+    "customer": "Mason Feed & Supply",
+    "service": "8 yard front-load",
     "requested": "This week",
-    "location": "Hwy 67, Graham",
-    "status": "Draft"
+    "location": "Downtown Graham",
+    "status": "Quoted"
   },
   {
-    "quote_id": "Q-1061",
-    "customer": "Taylor Remodel",
-    "service": "30-yard roll-off",
-    "requested": "Apr 1",
-    "location": "Loving, TX",
-    "status": "Pending deposit"
-  },
-  {
-    "quote_id": "Q-1060",
-    "customer": "Briarstone Apartments",
-    "service": "8-yard front load",
-    "requested": "Apr 8",
-    "location": "Graham east side",
-    "status": "Ready to send"
-  },
-  {
-    "quote_id": "Q-1059",
-    "customer": "J. Medina",
-    "service": "Rural trash service",
-    "requested": "Apr 10",
-    "location": "FM 209",
+    "quote_id": "Q-24116",
+    "customer": "Holland Residence",
+    "service": "Rural trash start",
+    "requested": "Next route cycle",
+    "location": "Loving Hwy",
     "status": "New"
+  },
+  {
+    "quote_id": "Q-24115",
+    "customer": "Cedar Creek Roofing",
+    "service": "20 yard roll-off",
+    "requested": "Friday",
+    "location": "South Bend",
+    "status": "Waiting on customer"
+  },
+  {
+    "quote_id": "Q-24114",
+    "customer": "Patterson Ranch",
+    "service": "Cart replacement",
+    "requested": "ASAP",
+    "location": "Bryson Rd",
+    "status": "Pending review"
+  },
+  {
+    "quote_id": "Q-24113",
+    "customer": "Lakeside Build Co.",
+    "service": "40 yard roll-off",
+    "requested": "Next week",
+    "location": "Possum Kingdom Hwy",
+    "status": "Pending site review"
+  },
+  {
+    "quote_id": "Q-24112",
+    "customer": "Walker Residence",
+    "service": "Rural trash restart",
+    "requested": "Next billing cycle",
+    "location": "Salt Creek Rd",
+    "status": "Quoted"
+  },
+  {
+    "quote_id": "Q-24111",
+    "customer": "Ridgeview Apartments",
+    "service": "Commercial container",
+    "requested": "This month",
+    "location": "Graham north side",
+    "status": "New"
+  },
+  {
+    "quote_id": "Q-24110",
+    "customer": "North Ridge Rentals",
+    "service": "20 yard pull / re-delivery",
+    "requested": "Today PM",
+    "location": "Hillcrest",
+    "status": "Scheduled"
+  },
+  {
+    "quote_id": "Q-24109",
+    "customer": "West Fork Electric",
+    "service": "15 yard roll-off",
+    "requested": "Tomorrow",
+    "location": "Industrial Loop",
+    "status": "Pending review"
   }
 ]

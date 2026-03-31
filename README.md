@@ -1,72 +1,53 @@
-# KC Dumpsters Demo Repo
+# KC Dumpsters Demo Repo (V2)
 
-Static multi-page demo built for GitHub Pages.
+Static multi-page demo for GitHub Pages.
 
-## What is included
+## What changed in V2
+
+- Reworked the copy so the site reads like a real operating website instead of a sales pitch
+- Tightened the customer pages around service, notices, and contact flow
+- Rebuilt the admin side to feel more like a dispatch / billing / ticket command center
+- Upgraded the demo data so tables and boards feel more believable
+- Kept the project static so it still deploys cleanly on GitHub Pages
+
+## Pages
 
 ### Customer side
-- Homepage
-- Roll-off service page
-- Rural trash page
-- City of Graham information page
-- Service area page
-- Route updates page
-- Request service form
-- Contact page
-- Customer portal concept
+- `index.html`
+- `roll-off.html`
+- `rural-trash.html`
+- `city-of-graham.html`
+- `service-area.html`
+- `route-updates.html`
+- `request-quote.html`
+- `contact.html`
+- `customer-portal.html`
 
 ### Admin side
-- Login screen
-- Dashboard
-- Customers
-- Quotes
-- Dispatch
-- Inventory
-- Invoices
-- Tickets
-- Staff
-- Reports
-- Settings
-
-## Stack
-- Plain HTML
-- Shared CSS
-- Vanilla JavaScript
-- JSON seed data
-- GitHub Pages compatible
+- `admin/login.html`
+- `admin/dashboard.html`
+- `admin/customers.html`
+- `admin/quotes.html`
+- `admin/dispatch.html`
+- `admin/inventory.html`
+- `admin/invoices.html`
+- `admin/tickets.html`
+- `admin/staff.html`
+- `admin/reports.html`
+- `admin/settings.html`
 
 ## Deploy to GitHub Pages
 
-1. Create a new GitHub repo.
-2. Upload all files in this folder to the repo root.
-3. Commit to `main`.
-4. In GitHub, go to **Settings -> Pages**.
-5. Under **Build and deployment**, set:
-   - **Source:** Deploy from a branch
-   - **Branch:** `main`
-   - **Folder:** `/ (root)`
-6. Save. GitHub Pages will publish the site.
-
-## Preview locally
-
-Because the admin pages fetch JSON files, do not preview by double-clicking the HTML files directly.
-
-Use a local server instead:
-
-```bash
-python -m http.server 8080
-```
-
-Then open:
-
-```text
-http://localhost:8080/
-```
+1. Create or open your GitHub repo.
+2. Upload all files from this folder to the repo root.
+3. Commit to the default branch.
+4. In GitHub repo settings, open **Pages**.
+5. Set source to **Deploy from a branch**.
+6. Choose your main branch and `/root`.
+7. Save.
 
 ## Notes
-- This is a front-end demo only.
-- Forms are mocked.
-- Admin login is mocked.
-- Data is seeded from static JSON files in `/data`.
-- Ready to show as a serious concept demo.
-- Best next production stack: Next.js + Supabase + Stripe + map/route tooling.
+
+- This is a static preview. Forms do not send anywhere.
+- The admin side is a front-end shell only.
+- The production build should move to a real stack with auth, database, payments, roles, and live dispatch data.

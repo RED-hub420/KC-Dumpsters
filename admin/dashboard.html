@@ -9,51 +9,56 @@
 </head>
 <body class="admin-body" data-page="dashboard">
 <div class="admin-shell">
-  
-<aside class="admin-sidebar">
+  <aside class="admin-sidebar">
   <div class="admin-brand">
     <img src="../assets/img/logo.png" alt="KC Dumpsters logo">
-    <div><strong>KC Command Center</strong><small>Operations demo environment</small></div>
+    <div>
+      <strong>KC Command Center</strong>
+      <small>Operations workspace</small>
+    </div>
   </div>
-  <div class="badge-row">
-    <span class="badge">Route ops</span>
-    <span class="badge">Quotes</span>
-    <span class="badge">Billing</span>
+  <div class="ops-pill-row">
+    <span class="ops-pill">Routes</span>
+    <span class="ops-pill">Billing</span>
+    <span class="ops-pill">Service tickets</span>
   </div>
-  <nav class="admin-nav"><a href="dashboard.html" data-admin-nav="dashboard">Dashboard<span class="count"></span></a><a href="customers.html" data-admin-nav="customers">Customers<span class="count">184</span></a><a href="quotes.html" data-admin-nav="quotes">Quotes<span class="count">18</span></a><a href="dispatch.html" data-admin-nav="dispatch">Dispatch<span class="count">3</span></a><a href="inventory.html" data-admin-nav="inventory">Inventory<span class="count">10</span></a><a href="invoices.html" data-admin-nav="invoices">Invoices<span class="count">5</span></a><a href="tickets.html" data-admin-nav="tickets">Tickets<span class="count">4</span></a><a href="staff.html" data-admin-nav="staff">Staff<span class="count">6</span></a><a href="reports.html" data-admin-nav="reports">Reports<span class="count"></span></a><a href="settings.html" data-admin-nav="settings">Settings<span class="count"></span></a></nav>
-  <div class="panel" style="margin-top:18px;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);box-shadow:none;color:#fff">
-    <h3 style="margin-bottom:10px">Demo scope</h3>
-    <p style="color:rgba(255,255,255,.74)">Static command center showing dispatch, customers, quotes, assets, billing, tickets, staff, and reporting.</p>
+  <nav class="admin-nav"><a href="dashboard.html" data-admin-nav="dashboard" class="active">Dashboard<span class="count"></span></a><a href="customers.html" data-admin-nav="customers" class="">Customers<span class="count">12</span></a><a href="quotes.html" data-admin-nav="quotes" class="">Quotes<span class="count">10</span></a><a href="dispatch.html" data-admin-nav="dispatch" class="">Dispatch<span class="count">4</span></a><a href="inventory.html" data-admin-nav="inventory" class="">Inventory<span class="count">12</span></a><a href="invoices.html" data-admin-nav="invoices" class="">Invoices<span class="count">8</span></a><a href="tickets.html" data-admin-nav="tickets" class="">Tickets<span class="count">7</span></a><a href="staff.html" data-admin-nav="staff" class="">Staff<span class="count">6</span></a><a href="reports.html" data-admin-nav="reports" class="">Reports<span class="count"></span></a><a href="settings.html" data-admin-nav="settings" class="">Settings<span class="count"></span></a></nav>
+  <div class="sidebar-note">
+    <div class="sidebar-note-label">Office status</div>
+    <strong>Morning dispatch active</strong>
+    <p>Route, billing, customer, and asset pages are split by work function so staff can move fast without digging through a brochure site.</p>
   </div>
 </aside>
-
   <main class="admin-main">
-    
-<div class="admin-topbar">
+    <div class="admin-topbar">
   <div>
     <div class="eyebrow">Operations dashboard</div>
     <h1>Command center</h1>
+    <p class="topbar-copy">Dispatch, billing, service tickets, and customer follow-up in one workspace.</p>
   </div>
-  <div class="search-box"><span>🔎</span><input placeholder="Search customers, assets, tickets, invoices"></div>
+  <div class="topbar-actions">
+    <div class="search-box"><span>🔎</span><input placeholder="Search customers, assets, tickets, invoices"></div>
+    <a class="btn btn-primary" href="quotes.html">Review quotes</a>
+  </div>
 </div>
 <div class="kpi-grid" data-kpis></div>
-<div class="admin-grid" data-dashboard>
+<div class="admin-grid">
   <section class="panel">
-    <div class="panel-head"><h2>Route board</h2><a class="btn btn-secondary" href="dispatch.html">Open dispatch</a></div>
+    <div class="panel-head"><div><h2>Route board</h2><p class="muted">Morning status by active board</p></div><a class="btn btn-secondary btn-sm" href="dispatch.html">Dispatch view</a></div>
     <div class="grid" data-route-board></div>
   </section>
   <section class="panel">
-    <div class="panel-head"><h2>Alerts</h2><span class="badge">Today</span></div>
+    <div class="panel-head"><div><h2>Alerts</h2><p class="muted">Items requiring follow-up</p></div><span class="badge">Today</span></div>
     <div class="grid" data-alerts></div>
   </section>
 </div>
 <div class="admin-grid">
   <section class="panel">
-    <div class="panel-head"><h2>Open quotes</h2><a class="btn btn-secondary" href="quotes.html">Quote queue</a></div>
+    <div class="panel-head"><div><h2>Quote queue</h2><p class="muted">Newest requests and items needing review</p></div><a class="btn btn-secondary btn-sm" href="quotes.html">Open quotes</a></div>
     <div data-open-quotes></div>
   </section>
   <section class="panel">
-    <div class="panel-head"><h2>Today’s tickets</h2><a class="btn btn-secondary" href="tickets.html">Tickets</a></div>
+    <div class="panel-head"><div><h2>Ticket board</h2><p class="muted">Same-day service and customer issues</p></div><a class="btn btn-secondary btn-sm" href="tickets.html">Open tickets</a></div>
     <div data-today-tickets></div>
   </section>
 </div>

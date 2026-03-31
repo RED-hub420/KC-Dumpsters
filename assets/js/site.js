@@ -1,4 +1,3 @@
-
 (function(){
   const body = document.body;
   const page = body.dataset.page;
@@ -11,8 +10,9 @@
     mobileToggle.addEventListener('click', () => {
       const nav = document.querySelector('.main-nav');
       const actions = document.querySelector('.header-actions');
-      if (nav) nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-      if (actions) actions.style.display = actions.style.display === 'flex' ? 'none' : 'flex';
+      const show = nav && nav.style.display !== 'flex';
+      if (nav) nav.style.display = show ? 'flex' : 'none';
+      if (actions) actions.style.display = show ? 'flex' : 'none';
     });
   }
 
@@ -34,12 +34,12 @@
       e.preventDefault();
       const kind = form.dataset.demoForm;
       let message = 'Request recorded.';
-      if(kind === 'quote') message = 'Quote request recorded. In production this would route to dispatch and the quote queue.';
-      if(kind === 'contact') message = 'Message recorded. In production this would create a contact event for the office team.';
-      if(kind === 'report') message = 'Service report recorded. In production this would create a ticket and notify operations.';
-      if(kind === 'route') message = 'Update signup recorded. In production this would be saved to customer notifications.';
+      if(kind === 'quote') message = 'Request recorded. Office review and dispatch would follow in the live system.';
+      if(kind === 'contact' || kind === 'report') message = 'Message recorded. Office follow-up would create the related ticket or contact event.';
+      if(kind === 'route') message = 'Notification request recorded.';
+      if(kind === 'login') message = 'Use the sign-in button to enter the admin pages.';
       showToast(message);
-      form.reset();
+      if(kind !== 'login') form.reset();
     });
   });
 
@@ -68,14 +68,14 @@
 
     if (acct) {
       acct.innerHTML = `
-        <div class="card">
+        <div class="panel">
           <span class="eyebrow">Account snapshot</span>
-          <h2 style="margin:16px 0 8px">${data.account.name}</h2>
+          <h2 style="margin:14px 0 8px">${data.account.name}</h2>
           <p>${data.account.service_address}</p>
-          <div class="badge-row" style="margin-top:16px">
-            <span class="badge">Plan: ${data.account.plan}</span>
-            <span class="badge">Autopay: ${data.account.autopay}</span>
-            <span class="badge">Balance: ${data.account.balance}</span>
+          <div class="hero-stats" style="grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px">
+            <div><strong>${data.account.plan}</strong><span>Plan</span></div>
+            <div><strong>${data.account.autopay}</strong><span>Autopay</span></div>
+            <div><strong>${data.account.balance}</strong><span>Balance</span></div>
           </div>
         </div>`;
     }
@@ -86,7 +86,7 @@
           <div class="route-meta">
             <div>
               <strong>${item.title}</strong>
-              <div class="muted small">${item.when}</div>
+              <div class="muted" style="font-size:.92rem">${item.when}</div>
             </div>
             <span class="status ${item.status_class}">${item.status}</span>
           </div>
@@ -100,7 +100,7 @@
           <div class="route-meta">
             <div>
               <strong>${inv.invoice}</strong>
-              <div class="muted small">Due ${inv.due}</div>
+              <div class="muted" style="font-size:.92rem">${inv.due}</div>
             </div>
             <div style="text-align:right">
               <strong>${inv.amount}</strong><br>
@@ -112,11 +112,14 @@
 
     if (notices) {
       notices.innerHTML = data.notices.map(n => `
-        <div class="notice">
-          <div style="font-size:1.1rem">${n.icon}</div>
-          <div><strong>${n.title}</strong><p>${n.body}</p></div>
+        <div class="portal-item">
+          <div class="route-meta" style="align-items:flex-start">
+            <div style="font-size:1.05rem">${n.icon}</div>
+            <div><strong>${n.title}</strong><p style="margin-top:6px">${n.body}</p></div>
+          </div>
         </div>`).join('');
     }
   }
+
   loadPortal();
 })();

@@ -1,38 +1,38 @@
 {
   "account": {
-    "name": "West Oak Storage",
-    "service_address": "498 Oak St, Graham, TX",
-    "plan": "30-yard roll-off rental",
+    "name": "Young Family",
+    "service_address": "90 Oak Grove Rd, Graham, TX",
+    "plan": "Rural weekly pickup",
     "autopay": "Enabled",
-    "balance": "$315.00"
+    "balance": "$0.00"
   },
   "upcoming": [
     {
-      "title": "Scheduled pull request",
-      "when": "Friday \u00b7 Apr 5 \u00b7 after 1:00 PM",
+      "title": "Next pickup window",
+      "when": "Thursday route \u00b7 Apr 03",
       "status": "Scheduled",
       "status_class": "info",
-      "note": "Roll-off RO-30-08 is queued for pickup. Site contact will receive a call 30 minutes before arrival."
+      "note": "Set cart curbside the night before service and keep lid closed."
     },
     {
-      "title": "Rental extension review",
-      "when": "Monday \u00b7 Apr 8",
-      "status": "Pending",
+      "title": "Route notice on file",
+      "when": "South wind advisory",
+      "status": "Advisory",
       "status_class": "warning",
-      "note": "Office review required if container remains on site beyond weekend without swap request."
+      "note": "Loose bagged material should be secured inside the cart to avoid wind scatter."
     }
   ],
   "invoices": [
     {
-      "invoice": "INV-3309",
-      "due": "Apr 7",
-      "amount": "$315.00",
-      "status": "Open",
-      "status_class": "warning"
+      "invoice": "INV-5502",
+      "due": "Paid Mar 30",
+      "amount": "$0.00",
+      "status": "Paid",
+      "status_class": "success"
     },
     {
-      "invoice": "INV-3281",
-      "due": "Mar 5",
+      "invoice": "INV-5477",
+      "due": "Paid Feb 29",
       "amount": "$0.00",
       "status": "Paid",
       "status_class": "success"
@@ -40,19 +40,19 @@
   ],
   "notices": [
     {
-      "icon": "\ud83e\udded",
-      "title": "Route timing may shift around holidays",
-      "body": "If a holiday falls mid-week, updated pull and service windows will be posted on the route updates page and sent by email."
+      "icon": "\ud83d\uddd3\ufe0f",
+      "title": "Holiday route changes",
+      "body": "If a holiday route moves, the office will post the updated schedule on the route updates page and send account notices."
     },
     {
-      "icon": "\ud83d\udeab",
-      "title": "Do not load above the top rail",
-      "body": "Overfilled containers may need to be offloaded before pickup for transport safety."
+      "icon": "\ud83e\uddfe",
+      "title": "Billing questions",
+      "body": "Invoice questions can be submitted through the contact page. Include the invoice number and service address for faster review."
     },
     {
-      "icon": "\ud83d\udccd",
-      "title": "Placement requests help avoid delays",
-      "body": "Use the service note area to leave gate, pad, and placement instructions before a drop or swap."
+      "icon": "\ud83d\udeae",
+      "title": "Set-out reminder",
+      "body": "Do not overload carts. Material above the lid line may not be serviced until it is corrected."
     }
   ]
 }

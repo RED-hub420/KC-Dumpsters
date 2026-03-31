@@ -3,117 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Service Area | KC Dumpsters Demo</title>
-  <meta name="description" content="KC Dumpsters demo">
+  <title>KC Dumpsters | Service Area</title>
+  <meta name="description" content="Service area information">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-page="area">
-
 <header class="site-header">
   <div class="container header-row">
     <a class="brand" href="index.html">
       <img src="assets/img/logo.png" alt="KC Dumpsters logo">
-      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas operations</span></div>
+      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas</span></div>
     </a>
     <nav class="main-nav"><a href="index.html" data-nav="home">Home</a><a href="roll-off.html" data-nav="rolloff">Roll-Off</a><a href="rural-trash.html" data-nav="rural">Rural Trash</a><a href="city-of-graham.html" data-nav="city">City Info</a><a href="service-area.html" data-nav="area">Service Area</a><a href="route-updates.html" data-nav="updates">Route Updates</a><a href="contact.html" data-nav="contact">Contact</a></nav>
     <div class="header-actions">
-      <a class="btn btn-secondary" href="customer-portal.html">Customer portal</a>
+      <a class="btn btn-secondary" href="customer-portal.html">Account</a>
       <a class="btn btn-primary" href="request-quote.html">Request service</a>
     </div>
     <button class="btn btn-secondary mobile-toggle" data-mobile-toggle>Menu</button>
   </div>
 </header>
 
-
 <section class="hero-simple">
   <div class="container">
     <span class="eyebrow">Service area</span>
-    <h1>Graham-centered coverage with separate route logic by service type</h1>
-    <p>This page organizes service coverage into understandable zones instead of dumping everything into one generic paragraph.</p>
+    <h1>Coverage for Graham and surrounding rural service routes.</h1>
+    <p>The current public materials reference service in Graham plus surrounding rural areas within roughly a 30 mile radius. Use the request page for exact address confirmation.</p>
   </div>
 </section>
-
 <section class="section">
   <div class="container grid grid-3">
-    <div class="card">
-      <h3>Core Graham coverage</h3>
-      <p>City-adjacent commercial stops, office visits, and fastest response windows. Good place to push contact and service request actions.</p>
-      <div class="badge-row" style="margin-top:14px"><span class="badge">Office access</span><span class="badge">Commercial priority</span></div>
-    </div>
-    <div class="card">
-      <h3>Rural 30-mile radius</h3>
-      <p>Primary residential rural service area within approximately 30 miles of Graham, with route-day assignment handled after intake review.</p>
-      <div class="badge-row" style="margin-top:14px"><span class="badge">Weekly pickup</span><span class="badge">Route-based</span></div>
-    </div>
-    <div class="card">
-      <h3>Project and commercial roll-off</h3>
-      <p>Coverage depends on container size, turnaround, and travel distance. Quote-first flow is cleaner than posting flat pricing too early.</p>
-      <div class="badge-row" style="margin-top:14px"><span class="badge">Quote-based</span><span class="badge">Travel-sensitive</span></div>
-    </div>
+    <div class="service-card"><h3>Graham core</h3><p>Office, city information, and nearby service routes are anchored here.</p></div>
+    <div class="service-card"><h3>Rural north / south</h3><p>Weekly residential route work outside city service boundaries.</p></div>
+    <div class="service-card"><h3>Commercial / roll-off response</h3><p>Jobsite and business service requests are reviewed case by case based on location and container availability.</p></div>
   </div>
 </section>
-
-<section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="container two-col">
-    <div class="card">
-      <span class="kicker">Example route zones</span>
-      <h2 style="margin:10px 0 16px">How this could be packaged visually</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Zone</th><th>Primary service</th><th>Notes</th></tr></thead>
-          <tbody>
-            <tr><td>Graham core</td><td>Commercial / city info</td><td>Fastest office coordination and city-related questions.</td></tr>
-            <tr><td>North / northeast corridor</td><td>Rural Route A</td><td>Weekly cart service with account email required for route updates.</td></tr>
-            <tr><td>South / lake corridor</td><td>Rural Route B</td><td>Weather and equipment delays affect this lane first.</td></tr>
-            <tr><td>Project service area</td><td>Roll-off</td><td>Delivery and tonnage priced after address review.</td></tr>
-          </tbody>
-        </table>
+<section class="section alt-section">
+  <div class="container split-grid">
+    <div>
+      <span class="kicker">Address review</span>
+      <h2>Service area is not the same as automatic approval.</h2>
+      <p>Dispatch still needs to review access, timing, and equipment availability before anything is added to the board.</p>
+      <div class="check-grid">
+        <div class="check-item">Remote or difficult access roads may need review before startup</div>
+        <div class="check-item">Commercial and roll-off jobs may be priced differently by distance and haul timing</div>
+        <div class="check-item">Customers outside regular route density may need a separate service plan</div>
       </div>
     </div>
-    <div class="banner">
-      <span class="kicker">Why this page matters</span>
-      <h2 style="margin:10px 0">It cuts down bad leads and bad assumptions.</h2>
-      <p>Most small service websites skip this and then the office wastes time answering where they go, what they offer, and which number to call. A clean service area page fixes that.</p>
+    <div class="info-panel tall">
+      <div class="panel-label">Service confirmation</div>
+      <h3>Best way to check</h3>
+      <p>Send the full service address, requested service type, and best callback number through the request page.</p>
+      <a class="btn btn-primary" href="request-quote.html">Check my address</a>
     </div>
   </div>
 </section>
-
 
 <footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="brand" style="color:#fff">
-          <img src="assets/img/logo.png" alt="KC Dumpsters logo">
-          <div class="brand-mark"><span>KC Dumpsters</span><span style="color:rgba(255,255,255,.72)">Waste operations platform demo</span></div>
-        </div>
-        <p style="margin-top:14px">Built as a multi-page GitHub Pages demo with a customer-facing site and a serious internal command center.</p>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand brand-footer">
+        <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+        <div class="brand-mark"><span>KC Dumpsters</span><span>Waste service operations</span></div>
       </div>
-      <div>
-        <h4>Service lines</h4>
-        <ul>
-          <li><a href="roll-off.html">Roll-off dumpsters</a></li>
-          <li><a href="rural-trash.html">Rural trash service</a></li>
-          <li><a href="city-of-graham.html">City of Graham information</a></li>
-          <li><a href="route-updates.html">Route updates</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <ul>
-          <li>Rural / City: 940-549-2510</li>
-          <li>Roll-off: 940-549-8459</li>
-          <li>kcdumpsters@gmail.com</li>
-          <li>1338 FM 1287, Graham, TX</li>
-        </ul>
-      </div>
+      <p class="footer-copy">Request service, review route notices, or contact the office using the pages above.</p>
     </div>
-    <div class="footer-bottom">© <span data-year></span> KC Dumpsters demo build. Static front-end only.</div>
+    <div>
+      <h4>Service lines</h4>
+      <ul>
+        <li>Rural / city questions: 940-549-2510</li>
+        <li>Roll-off line: 940-549-8459</li>
+        <li>Email: kcdumpsters@gmail.com</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Office</h4>
+      <ul>
+        <li>1338 FM 1287</li>
+        <li>Graham, TX</li>
+        <li>Mon-Fri · 8:00 AM - 5:00 PM</li>
+      </ul>
+    </div>
   </div>
+  <div class="container footer-bottom">© <span data-year></span> KC Dumpsters</div>
 </footer>
 <div class="toast" aria-live="polite"></div>
 <script src="assets/js/site.js"></script>
-
 </body>
 </html>

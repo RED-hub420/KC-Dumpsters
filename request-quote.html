@@ -3,101 +3,120 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Request Service | KC Dumpsters Demo</title>
-  <meta name="description" content="KC Dumpsters demo">
+  <title>KC Dumpsters | Request Service</title>
+  <meta name="description" content="Request service from KC Dumpsters">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body data-page="quote">
-
+<body data-page="request">
 <header class="site-header">
   <div class="container header-row">
     <a class="brand" href="index.html">
       <img src="assets/img/logo.png" alt="KC Dumpsters logo">
-      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas operations</span></div>
+      <div class="brand-mark"><span>KC Dumpsters</span><span>Graham, Texas</span></div>
     </a>
     <nav class="main-nav"><a href="index.html" data-nav="home">Home</a><a href="roll-off.html" data-nav="rolloff">Roll-Off</a><a href="rural-trash.html" data-nav="rural">Rural Trash</a><a href="city-of-graham.html" data-nav="city">City Info</a><a href="service-area.html" data-nav="area">Service Area</a><a href="route-updates.html" data-nav="updates">Route Updates</a><a href="contact.html" data-nav="contact">Contact</a></nav>
     <div class="header-actions">
-      <a class="btn btn-secondary" href="customer-portal.html">Customer portal</a>
+      <a class="btn btn-secondary" href="customer-portal.html">Account</a>
       <a class="btn btn-primary" href="request-quote.html">Request service</a>
     </div>
     <button class="btn btn-secondary mobile-toggle" data-mobile-toggle>Menu</button>
   </div>
 </header>
 
-
 <section class="hero-simple">
   <div class="container">
     <span class="eyebrow">Request service</span>
-    <h1>One structured intake form instead of scattered messages</h1>
-    <p>This page is designed to capture enough information for the office to triage the request properly without forcing pricing onto the site before the business is ready.</p>
+    <h1>Send a request to the office.</h1>
+    <p>Select the service type, enter the address, and include any placement or route notes that matter. The office can follow up on pricing, timing, and scheduling.</p>
   </div>
 </section>
-
 <section class="section">
-  <div class="container two-col">
-    <form class="card" data-demo-form="quote">
-      <h3>Service request form</h3>
-      <div class="form-grid">
+  <div class="container split-grid request-layout">
+    <form class="form-card" data-demo-form="quote">
+      <div class="field-grid two-up">
+        <div class="field"><label>Service type</label>
+          <select required>
+            <option value="">Select</option>
+            <option>Roll-off delivery / rental</option>
+            <option>Roll-off pull / swap</option>
+            <option>Rural trash start</option>
+            <option>Commercial container</option>
+            <option>Cart replacement / issue</option>
+          </select>
+        </div>
+        <div class="field"><label>Requested size</label>
+          <select>
+            <option value="">Select if known</option>
+            <option>95 gallon cart</option>
+            <option>2 yard</option>
+            <option>4 yard</option>
+            <option>6 yard</option>
+            <option>8 yard</option>
+            <option>12 yard</option>
+            <option>15 yard</option>
+            <option>20 yard</option>
+            <option>30 yard</option>
+            <option>40 yard</option>
+          </select>
+        </div>
         <div class="field"><label>Name</label><input required></div>
         <div class="field"><label>Phone</label><input required></div>
-        <div class="field"><label>Email</label><input type="email"></div>
-        <div class="field"><label>Service type</label><select><option>Roll-off rental</option><option>Rural trash service</option><option>Commercial front load</option><option>General info</option></select></div>
-        <div class="field"><label>Requested window</label><input type="date"></div>
-        <div class="field"><label>Preferred contact</label><select><option>Phone</option><option>Email</option><option>Text</option></select></div>
-        <div class="field full"><label>Service address</label><input></div>
-        <div class="field full"><label>Request details</label><textarea placeholder="Container size, route questions, placement notes, service start request, account setup notes, etc."></textarea></div>
+        <div class="field full"><label>Email</label><input></div>
+        <div class="field full"><label>Service address</label><input required></div>
+        <div class="field"><label>Requested date / window</label><input placeholder="Example: Thursday AM"></div>
+        <div class="field"><label>Best callback time</label><input placeholder="Example: 1 PM - 4 PM"></div>
+        <div class="field full"><label>Access, gate, placement, or route notes</label><textarea placeholder="Add anything dispatch should know before reviewing the request."></textarea></div>
       </div>
-      <div style="margin-top:16px"><button class="btn btn-primary" type="submit">Submit request</button></div>
+      <div class="form-actions"><button class="btn btn-primary" type="submit">Submit request</button></div>
     </form>
-    <div class="card">
-      <span class="kicker">Why this is better</span>
-      <h2 style="margin:10px 0 16px">Cleaner office intake from day one</h2>
-      <div class="check-grid">
-        <div class="check-item">Roll-off leads do not get mixed into rural service questions.</div>
-        <div class="check-item">The office gets job location before quoting travel-sensitive service.</div>
-        <div class="check-item">The same structured data can later feed CRM, dispatch, tickets, and billing setup.</div>
-        <div class="check-item">It keeps the demo realistic without pretending there is a finished backend already.</div>
+    <div class="stack-col">
+      <div class="info-panel">
+        <div class="panel-label">Good requests move faster</div>
+        <div class="check-grid">
+          <div class="check-item">Exact address</div>
+          <div class="check-item">Service type and size if known</div>
+          <div class="check-item">Requested timing</div>
+          <div class="check-item">Any access or placement issues</div>
+        </div>
+      </div>
+      <div class="card soft">
+        <h3>Need help first?</h3>
+        <p>Rural / city questions: 940-549-2510<br>Roll-off line: 940-549-8459</p>
       </div>
     </div>
   </div>
 </section>
 
-
 <footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="brand" style="color:#fff">
-          <img src="assets/img/logo.png" alt="KC Dumpsters logo">
-          <div class="brand-mark"><span>KC Dumpsters</span><span style="color:rgba(255,255,255,.72)">Waste operations platform demo</span></div>
-        </div>
-        <p style="margin-top:14px">Built as a multi-page GitHub Pages demo with a customer-facing site and a serious internal command center.</p>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand brand-footer">
+        <img src="assets/img/logo.png" alt="KC Dumpsters logo">
+        <div class="brand-mark"><span>KC Dumpsters</span><span>Waste service operations</span></div>
       </div>
-      <div>
-        <h4>Service lines</h4>
-        <ul>
-          <li><a href="roll-off.html">Roll-off dumpsters</a></li>
-          <li><a href="rural-trash.html">Rural trash service</a></li>
-          <li><a href="city-of-graham.html">City of Graham information</a></li>
-          <li><a href="route-updates.html">Route updates</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <ul>
-          <li>Rural / City: 940-549-2510</li>
-          <li>Roll-off: 940-549-8459</li>
-          <li>kcdumpsters@gmail.com</li>
-          <li>1338 FM 1287, Graham, TX</li>
-        </ul>
-      </div>
+      <p class="footer-copy">Request service, review route notices, or contact the office using the pages above.</p>
     </div>
-    <div class="footer-bottom">© <span data-year></span> KC Dumpsters demo build. Static front-end only.</div>
+    <div>
+      <h4>Service lines</h4>
+      <ul>
+        <li>Rural / city questions: 940-549-2510</li>
+        <li>Roll-off line: 940-549-8459</li>
+        <li>Email: kcdumpsters@gmail.com</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Office</h4>
+      <ul>
+        <li>1338 FM 1287</li>
+        <li>Graham, TX</li>
+        <li>Mon-Fri · 8:00 AM - 5:00 PM</li>
+      </ul>
+    </div>
   </div>
+  <div class="container footer-bottom">© <span data-year></span> KC Dumpsters</div>
 </footer>
 <div class="toast" aria-live="polite"></div>
 <script src="assets/js/site.js"></script>
-
 </body>
 </html>
