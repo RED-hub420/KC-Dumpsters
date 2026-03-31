@@ -34,10 +34,10 @@
       e.preventDefault();
       const kind = form.dataset.demoForm;
       let message = 'Request recorded.';
-      if(kind === 'quote') message = 'Request recorded. Office review and dispatch would follow in the live system.';
-      if(kind === 'contact' || kind === 'report') message = 'Message recorded. Office follow-up would create the related ticket or contact event.';
+      if(kind === 'quote') message = 'Request recorded. The office can review it for scheduling, pricing, or routing.';
+      if(kind === 'contact' || kind === 'report') message = 'Message recorded. The office can review it and route follow-up from there.';
       if(kind === 'route') message = 'Notification request recorded.';
-      if(kind === 'login') message = 'Use the sign-in button to enter the admin pages.';
+      if(kind === 'login') message = 'Use the access button to open the operations workspace.';
       showToast(message);
       if(kind !== 'login') form.reset();
     });
