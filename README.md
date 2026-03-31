@@ -1,4 +1,4 @@
-# KC Dumpsters Demo Repo v3
+# KC Dumpsters Review Build v4
 
 Static multi-page website and admin preview built for GitHub Pages.
 
@@ -24,6 +24,6 @@ Static multi-page website and admin preview built for GitHub Pages.
 5. Save and wait for publish
 
 ## Notes
-- Forms are front-end only in this preview build
+- Forms are front-end only in this review build
 - Admin sign-in uses a local browser-only preview flow
 - A production build should move to a real stack with auth, database, payments, roles, and live dispatch data

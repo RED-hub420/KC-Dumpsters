@@ -34,10 +34,10 @@
       e.preventDefault();
       const kind = form.dataset.demoForm;
       let message = 'Request recorded.';
-      if(kind === 'quote') message = 'Request recorded. The office can review it for scheduling, pricing, or routing.';
-      if(kind === 'contact' || kind === 'report') message = 'Message recorded. The office can review it and route follow-up from there.';
-      if(kind === 'route') message = 'Notification request recorded.';
-      if(kind === 'login') message = 'Use the access button to open the operations workspace.';
+      if(kind === 'quote') message = 'Request queued for office review.';
+      if(kind === 'contact' || kind === 'report') message = 'Message sent to the office queue.';
+      if(kind === 'route') message = 'Update preference saved.';
+      if(kind === 'login') message = 'Use the sign-in button to open the office workspace.';
       showToast(message);
       if(kind !== 'login') form.reset();
     });
@@ -55,6 +55,9 @@
   const year = document.querySelector('[data-year]');
   if (year) year.textContent = new Date().getFullYear();
 
+  const portalLink = document.querySelector('.header-actions a[href="customer-portal.html"]');
+  if (portalLink && page === 'portal') portalLink.classList.add('active');
+
   async function loadPortal() {
     const portal = document.querySelector('[data-customer-portal]');
     if (!portal) return;
@@ -69,7 +72,7 @@
     if (acct) {
       acct.innerHTML = `
         <div class="panel">
-          <span class="eyebrow">Account snapshot</span>
+          <span class="eyebrow">Account record</span>
           <h2 style="margin:14px 0 8px">${data.account.name}</h2>
           <p>${data.account.service_address}</p>
           <div class="hero-stats" style="grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px">

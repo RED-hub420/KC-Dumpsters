@@ -1,9 +1,30 @@
 (function(){
   const body = document.body;
   const page = body.dataset.page;
+  const isLoginPage = window.location.pathname.endsWith('/admin/login.html') || window.location.pathname.endsWith('admin/login.html');
+  if (!isLoginPage && localStorage.getItem('kc_demo_admin') !== '1') {
+    window.location.href = 'login.html';
+    return;
+  }
   document.querySelectorAll('[data-admin-nav]').forEach(link => {
     if (link.dataset.adminNav === page) link.classList.add('active');
   });
+
+  const sidebar = document.querySelector('.admin-sidebar');
+  if (sidebar && !document.querySelector('.sidebar-tools')) {
+    const tools = document.createElement('div');
+    tools.className = 'sidebar-tools';
+    tools.innerHTML = '<a class="btn btn-secondary btn-block" href="../index.html">Open public site</a><button class="btn btn-dark btn-block" type="button" data-signout>Sign out</button>';
+    sidebar.appendChild(tools);
+  }
+
+  const signoutBtn = document.querySelector('[data-signout]');
+  if (signoutBtn) {
+    signoutBtn.addEventListener('click', () => {
+      localStorage.removeItem('kc_demo_admin');
+      window.location.href = 'login.html';
+    });
+  }
 
   function statusClass(status){
     const key = String(status).toLowerCase();
